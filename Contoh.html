@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPLDV - 3 Metode</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #7ed47e;
+            color: #333;
+            line-height: 1.8;
+        }
+        h1 {
+            text-align: center;
+            color: #fff;
+            background-color: #4CAF50;
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .method {
+            background-color: #fff;
+            margin-top: 20px;
+            padding: 15px 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .method h3 {
+            color: #4CAF50;
+            margin-top: 0;
+        }
+        code {
+            background-color: #f4f4f4;
+            color: #d6336c;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-size: 90%;
+        }
+        ol {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        ol li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contoh Soal SPLDV</h1>
+    <p>
+        Diberikan sistem persamaan berikut:
+    </p>
+    <ul>
+        <li><code>2x + y = 8</code></li>
+        <li><code>x - y = 2</code></li>
+    </ul>
+    <p>
+        Selesaikan sistem persamaan di atas menggunakan tiga metode berikut:
+    </p>
+
+    <div class="method">
+        <h3>1. Metode Eliminasi</h3>
+        <p>Langkah-langkah:</p>
+        <ol>
+            <li>Eliminasi variabel <code>y</code>: jumlahkan kedua persamaan:</li>
+            <p><code>(2x + y) + (x - y) = 8 + 2</code></p>
+            <p><code>3x = 10</code>, maka <code>x = 10/3</code>.</p>
+            <li>Substitusi <code>x = 10/3</code> ke salah satu persamaan, misalnya <code>x - y = 2</code>:</li>
+            <p><code>10/3 - y = 2</code>, maka <code>y = 10/3 - 6/3 = 4/3</code>.</p>
+        </ol>
+        <p>Hasil: <code>x = 10/3</code>, <code>y = 4/3</code>.</p>
+    </div>
+
+    <div class="method">
+        <h3>2. Metode Substitusi</h3>
+        <p>Langkah-langkah:</p>
+        <ol>
+            <li>Ekspresikan <code>y</code> dari persamaan kedua: <code>x - y = 2</code>.</li>
+            <p><code>y = x - 2</code>.</p>
+            <li>Substitusi <code>y = x - 2</code> ke persamaan pertama:</li>
+            <p><code>2x + (x - 2) = 8</code>.</p>
+            <p><code>3x - 2 = 8</code>, maka <code>3x = 10</code> dan <code>x = 10/3</code>.</p>
+            <li>Substitusi <code>x = 10/3</code> ke <code>y = x - 2</code>:</li>
+            <p><code>y = 10/3 - 6/3 = 4/3</code>.</p>
+        </ol>
+        <p>Hasil: <code>x = 10/3</code>, <code>y = 4/3</code>.</p>
+    </div>
+
+    <div class="method">
+        <h3>3. Metode Grafik</h3>
+        <p>Langkah-langkah:</p>
+        <ol>
+            <li>Gambar grafik kedua persamaan:</li>
+            <p><strong>Persamaan 1:</strong> <code>2x + y = 8</code>. Nilai-nilai:</p>
+            <ul>
+                <li>Jika <code>x = 0</code>, maka <code>y = 8</code>.</li>
+                <li>Jika <code>y = 0</code>, maka <code>x = 4</code>.</li>
+            </ul>
+            <p><strong>Persamaan 2:</strong> <code>x - y = 2</code>. Nilai-nilai:</p>
+            <ul>
+                <li>Jika <code>x = 0</code>, maka <code>y = -2</code>.</li>
+                <li>Jika <code>y = 0</code>, maka <code>x = 2</code>.</li>
+            </ul>
+            <li>Plot kedua garis di grafik dan cari titik potongnya.</li>
+        </ol>
+        <p>Titik potong: <code>(10/3, 4/3)</code>.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Contoh SPLDV | <a href="#">Kembali ke Atas</a></p>
+    </footer>
+</body>
+</html>
